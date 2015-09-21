@@ -57,7 +57,6 @@ public class App
 				id = reader.nextLine();
 				System.out.println("Insert name");
 				name = reader.nextLine();
-				//String insertSql = "insert into friends values(3,'Zoco')";
 				String insertSql = 
 						"insert into customer values("+id+",'"+name+"')";
 				statement.executeUpdate(insertSql);
